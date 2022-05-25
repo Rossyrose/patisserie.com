@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josephine Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #e89362;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Georgia;
+    padding-left: 0pt;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu1{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: white;
+
+}
+
+ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+ul li:hover::after{
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: var(--black);
+}
+.menu .menu-slider{
+    padding-bottom: 5rem;
+}
+.menu .menu-slider .box{
+    text-align: center;
+}
+.menu .menu-slider .box img{
+    width: 100%;
+   /* opacity: .5;
+    transform: scale(.8);*/
+}
+.img{
+    width: 50%;
+    height: 50%;
+}
+.menu .menu-slider .box .content{
+    padding-top: 1rem;
+}
+.menu .menu-slider .box .content h3{
+    font-size: 2.5rem;
+    color: var(--orange);
+}
+.menu .menu-slider .box .content .price{
+    font-size: 2rem;
+    color: var(--orange);
+    padding: 1rem 0;
+    font-weight: bolder;
+}
+.menu .menu-slider .box .content .price span{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    font-weight: normal;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
